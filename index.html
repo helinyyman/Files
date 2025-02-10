@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+           function windowsSize()
+           {
+               let w = window.innerWidth;
+               let h = window.innerHeight;
+               window.alert("window genisligi"+w+"window yuksekligi"+h);
+
+           }
+
+    </script>
+
+</head>
+<body onload="windowsSize()">
+    <button type ="button" onclick="windowsSize()" > ekran cozunurlulugu</button>
+
+</body>
+</html>
+
+//////////
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Kontrol</title>
+</head>
+<body>
+
+    <h1>JavaScript Durum Kontrolü</h1>
+
+    <p id="js-enabled" style="color: green; font-weight: bold;">
+        JavaScript etkin!
+    </p>
+
+    <noscript>
+        <p style="color: red; font-weight: bold;">
+            JavaScript devre dışı! Lütfen tarayıcı ayarlarından etkinleştirin.
+        </p>
+    </noscript>
+
+</body>
+</html>
